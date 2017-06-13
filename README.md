@@ -47,7 +47,7 @@ docker logs php-fpm
 ```
 or using [Docker Compose](https://docs.docker.com/compose/):
 ```shell
-docker-compose logs phpfpm
+docker-compose logs php-fpm
 ```
 
 ## Installed extensions
