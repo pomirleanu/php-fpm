@@ -1,0 +1,8 @@
+version: '2'
+services:
+  php-fpm:
+    container_name: php-fpm
+    image: pomirleanu/php-fpm
+    entrypoint: php index.php
+    volumes:
+      - /path/to/your/app:/var/www/html
